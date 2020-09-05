@@ -26,11 +26,11 @@ Your message will be sent through a Proxy server to ensure Anonymity.""")
         context = ssl.create_default_context()
 
         # set email to be sent through a proxy server
-        socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS4, "95.174.67.50", 18080)
+        socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, "167.71.203.212", 1080)
         socks.wrapmodule(smtplib)
 
         # start smtp server and send email
-        server = smtplib.SMTP('localhost')
+        server = smtplib.SMTP('smtp.gmail.com: 587')
         server.starttls(context)
 
         server.login(msg['From'], password)
