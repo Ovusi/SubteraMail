@@ -22,18 +22,6 @@ Download this repository and unzip.
 Navigate to the unzipped folder and run subtera.py
 
 
-
-
-
-
-INSTALLATION:
-
-Windows users:
-    Download this repository and unzip.
-    Navigate to the unzipped folder and run "pip3 install -r requirements.txt".
-    Run "setup.py" from folder using "pip setup install"
-
-Linux users:
-    Download this repository and unzip.
-    Make sure you have python3 installed on your system.
-    cd into the directory contain setup.py and use "sudo python setup.py install"
+NOTE: You can set the Proxy Server Address to any server of your choice.
+	  Navigate to /modules/sendmsg.py in the unzipped folder and replace
+	  the Address and Port on lines 29 and 30 respectively.
