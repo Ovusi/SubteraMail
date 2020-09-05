@@ -5,14 +5,13 @@ anonymity. This program is written in python.
 
 NOTICE: MORE FEATURES WOULD BE ADDED SOON. CONTRIBUTIONS ARE HIGHLY Welcomed. 😁 
 
-INSTALLATION:
+USAGE:
 
-Windows users:
-    Download this repository and unzip.
-    Navigate to the unzipped folder and run "pip3 install -r requirements.txt".
-    Run "setup.py" from folder using "pip setup install"
+All OS
+	Download this repository and unzip.
+	Make sure your system has python installed.
+	navigate to the unzipped folder and run subtera.py
 
-Linux users:
-    Download this repository and unzip.
-    Make sure you have python3 installed on your system.
-    cd into the directory contain setup.py and use "sudo python setup.py install"
+NOTE: You can set the proxy server address and port  to your
+      preferred address by using your preferred text editor.
+      Navigate to /modules/sendmsg.py and edit lines 29 and 30. 

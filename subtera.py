@@ -10,7 +10,7 @@ class Subt:
         userinput = input("[*] Type Option> ")
         if userinput == "1":
             import modules.sendmsg
-            sm = sendmsg
+            sm = modules.sendmsg
             sm.Sendmsg()
         else:
             print("\nOption does not exist. Please select from the options above.")

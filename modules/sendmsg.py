@@ -26,7 +26,10 @@ Your message will be sent through a Proxy server to ensure Anonymity.""")
         context = ssl.create_default_context()
 
         # set email to be sent through a proxy server
-        socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, "167.71.203.212", 1080)
+        proxy = "167.71.203.212"  # Replace with any proxy server and
+        port = 1080  # port of your choice
+
+        socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, proxy, port)
         socks.wrapmodule(smtplib)
 
         # start smtp server and send email
