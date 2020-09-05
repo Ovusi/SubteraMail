@@ -1,18 +1,22 @@
-SubTera Anonymous Mail.
+📧 SubTera Proxy Mail.
 
-This is an open source program used to send email messages over a proxy server to provide
-anonymity. This program is written in python.
+This is an open source program used to send email
+messages over a proxy server to provide anonymity. 
+This program is written in python.
 
-NOTICE: MORE FEATURES WOULD BE ADDED SOON. CONTRIBUTIONS ARE HIGHLY Welcomed. 😁 
+❗❗❗NOTICE: MORE FEATURES WOULD BE ADDED SOON. CONTRIBUTIONS ARE HIGHLY Welcomed. 😁 
 
-INSTALLATION:
+Usage:
 
-Windows users:
-    Download this repository and unzip.
-    Navigate to the unzipped folder and run "pip3 install -r requirements.txt".
-    Run "setup.py" from folder using "pip setup install"
+💻🖥️All OS
+Make sure Python2 or above is installed on your system. 
+Download this repository and unzip. 
+Navigate to the unzipped folder and run subtera.py
 
-Linux users:
-    Download this repository and unzip.
-    Make sure you have python3 installed on your system.
-    cd into the directory contain setup.py and use "sudo python setup.py install"
+
+
+
+
+
+
+
