@@ -14,7 +14,7 @@ class Sendmsg:
     print("""  \nType your correct email information and recipient address. 
 Your message will be sent through a Proxy server to ensure Anonymity.""")
 
-    msg['From'] = input("\n[*]Sender Address> ")
+    msg['From'] = input("\n[*] Sender Address> ")
     password = input("[*] Password> ")
     msg['To'] = input("[*] Recipient Address> ")
     msg['Subject'] = input("[*] Subject> ")
