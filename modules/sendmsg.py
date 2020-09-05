@@ -1,4 +1,4 @@
-from banner import Banner
+from textsbanners.banner import Banner
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
