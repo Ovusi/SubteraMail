@@ -2,7 +2,6 @@ from textsbanners.banner import Banner
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-import ssl
 import socks
 
 Banner()
@@ -23,8 +22,6 @@ Your message will be sent through a Proxy server to ensure Anonymity.""")
     try:
         msg.attach(MIMEText(message, "Plain"))
 
-        context = ssl.create_default_context()
-
         # set email to be sent through a proxy server
         proxy = "167.71.203.212"  # Replace with any proxy server and
         port = 1080  # port of your choice
@@ -34,7 +31,7 @@ Your message will be sent through a Proxy server to ensure Anonymity.""")
 
         # start smtp server and send email
         server = smtplib.SMTP('smtp.gmail.com: 587')
-        server.starttls(context)
+        server.starttls()
 
         server.login(msg['From'], password)
 
@@ -47,9 +44,4 @@ Your message will be sent through a Proxy server to ensure Anonymity.""")
 
     except Exception as e:
         print(e)
-    if Exception:  # if error occurs, go back to options screen
         import subtera
-        subtera.Subt()
-
-
-Sendmsg()
