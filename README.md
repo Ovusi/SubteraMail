@@ -17,10 +17,10 @@ This program is written in python.
 Download this repository.
 
 Go to the command line and run: 
-`_pip install pyinstaller_`
+`pip install pyinstaller`
 
 Unzip the downloaded repository and using the commandline, navigate to the unzipped folder and run:
-`_pyinstaller subtera.py_`
+`pyinstaller subtera.py`
 
 A dist folder would appear in the unzipped repository folder. Enter and run subtera.exe.
 
@@ -29,10 +29,10 @@ A dist folder would appear in the unzipped repository folder. Enter and run subt
 Donwload and unzip the repository.
 
 Using the terminal, navigate to the unzipped folder and run:
-`_chmod +x subtera.py_`
+`chmod +x subtera.py`
 
 you can now run the program using:
-`./_subtera.py_`
+`./subtera.py`
 
 
 
