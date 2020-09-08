@@ -37,11 +37,11 @@ you can now run the program using:
 
 
 💻🖥️**All OS**
-Make sure Python2 or above is installed on your system. 
+Make sure Python3.8 or above is installed on your system. 
 Download this repository and unzip. 
 Navigate to the unzipped folder and run _subtera.py_
 
 
 NOTE: You can set the Proxy Server Address to any server of your choice.
 	  Navigate to _/modules/sendmsg.py_ in the unzipped folder and replace
-	  the Address and Port on lines 29 and 30 respectively.
+	  the Address and Port on lines 26 and 27 respectively.

@@ -44,4 +44,4 @@ Your message will be sent through a Proxy server to ensure Anonymity.""")
 
     except Exception as e:
         print(e)
-        import subtera
+        pass

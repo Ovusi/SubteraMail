@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python3.8
 from textsbanners.banner import Banner
 from textsbanners.text import Text
 
