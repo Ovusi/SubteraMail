@@ -3,6 +3,7 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import socks
+import getpass
 
 Banner()
 
@@ -14,7 +15,7 @@ class Sendmsg:
 Your message will be sent through a Proxy server to ensure Anonymity.""")
 
     msg['From'] = input("\n[*] Sender Address> ")
-    password = input("[*] Password> ")
+    password = getpass.getpass("[*] Password> ")
     msg['To'] = input("[*] Recipient Address> ")
     msg['Subject'] = input("[*] Subject> ")
     message = input("[*] Message> ")
@@ -44,4 +45,10 @@ Your message will be sent through a Proxy server to ensure Anonymity.""")
 
     except Exception as e:
         print(e)
-        pass
+        while Exception:
+            break
+
+    print(input("Press enter to quit> "))
+
+    
+Sendmsg()
